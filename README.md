@@ -20,6 +20,7 @@ Click the calculate BMI button, then you can see the appropriate values of BMI a
 
 It is completely user-friendly!!!
 
-===>I have developed this app using html, css and javascript click the link to get access--- https://bmi-calculator-nqrly3zyg-vangalasaikishore.vercel.app/
+===>I have developed this app using html, css and javascript click the link to get access--- 
+https://bmi-calculator-nqrly3zyg-vangalasaikishore.vercel.app/
 
 ===>Hope it will help you............................. Vangala Saikishore
