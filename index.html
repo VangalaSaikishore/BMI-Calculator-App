@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- By Ali Aslan -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+          <h1><p style="color: #000080;">BMI Calculator</p></h1>
+          <div class="content">
+
+
+            <div class="input">
+                <label for="height"> <p style="color: Maroon;"><b>Age</b></label></p>
+                <input type="text" class="text-input" id="age" autocomplete="off" required/>
+            </div>
+
+            <div class="gender">
+
+                <label class="container">
+                    <input type="radio" name="radio" id="m"><p style="color: #FF8C00"><b>Male</b></p>
+                    <span class="checkmark"></span>
+                  </label>
+
+
+                <label class="container">
+                    <input type="radio" name="radio" id="f" ><p style="color: green"><b>Female</b></p>
+                      <span class="checkmark"></span>
+                    </label>
+
+            </div>
+
+            <div class="containerHW">
+            <div class="inputH">
+              <label for="height"><p style="color: #800000">Height(cm)</label></p>
+              <input type="number" id="height" required>
+            </div>
+
+            <div class="inputW">
+              <label for="weight"><p style="color: #B8860B">Weight(kg)</label></p>
+              <input type="number" id="weight" required>
+            </div>
+          </div>
+
+            <button class="calculate" id="submit" onclick="calculate();">Calculate BMI</button>
+          </div>
+          <div class="result">
+            <p>Your BMI is</p>
+            <div id="result">00.00</div>
+            <p class="comment"></p>
+          </div>
+          <div class="footer"><a class="footer-text" target="_blank" href="https://github.com/VangalaSaikishore"><p style="color: #8B0000"><b>--Vangala Saikishore</b></p></a></div>
+        
+      
+
+        </div>
+      </div>
+
+      
+
+
+      
+    <!-- -->
+    <div id="Modal" class="Modal">
+      <!-- Modal content -->
+    <div class="Modal-content">
+      <span class="close">&times;</span>
+      <p id="ModalText"></p>
+    </div></div>
+
+
+
+    
+<script src="script.js"></script>
+
+</body>
+</html>
